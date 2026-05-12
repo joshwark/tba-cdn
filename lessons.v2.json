@@ -1,0 +1,602 @@
+{
+  "version": "v1.0-tba-12week",
+  "generated_at": "2026-05-12T20:46:20Z",
+  "course": "Truffle Bear Academy 12-Week",
+  "brand": {
+    "name": "Truffle Bear Academy",
+    "short_code": "TBA",
+    "long_name": "Truffle Bear Academy \u00b7 12-Week Truffle Scent Training",
+    "tagline": "Become an Artisan Explorer Team",
+    "site_url": "https://trufflebearbear.com",
+    "parent_url": "https://trufflebearoil.com",
+    "mascots": {
+      "primary": "Lizzy Bear",
+      "secondary": "Winny"
+    },
+    "target_species": "Leucangium carthusianum (Oregon Black Truffle)",
+    "certification": "Truffle Bear Certified Handler (TBCH)",
+    "colors": {
+      "oregon_cream": "#F6F1E8",
+      "truffle_black": "#1F1A17",
+      "dark_golden_oak": "#8A6A3D",
+      "rich_earth": "#5E4632",
+      "sage_mist": "#A7B29D",
+      "warm_white": "#FCFAF7",
+      "line": "#D9D0C3"
+    },
+    "type": {
+      "serif": "\"Cormorant Garamond\", Georgia, serif",
+      "sans": "\"Work Sans\", -apple-system, sans-serif"
+    },
+    "voice": [
+      "Scientific authority paired with plain language.",
+      "LIMA principle \u2014 Least Intrusive, Minimally Aversive.",
+      "The dog is a partner, not a tool \u2014 'Artisan Explorer team' not 'working dog.'",
+      "Ethical foraging and forest stewardship are non-negotiable.",
+      "Lizzy Bear (and sometimes Winny) is the in-video demonstrator.",
+      "Grounded, calm, never hyped. Teaching a craft.",
+      "Quiet Focus beats drive \u2014 engagement, not excitement."
+    ]
+  },
+  "phases": [
+    {
+      "id": "P1",
+      "title": "Foundation",
+      "weeks": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "P2",
+      "title": "Communication",
+      "weeks": [
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "id": "P3",
+      "title": "Partnership",
+      "weeks": [
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "id": "P4",
+      "title": "The Hunt",
+      "weeks": [
+        "10",
+        "11",
+        "12"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "W1",
+      "phase_id": "P1",
+      "phase_title": "Foundation",
+      "week": 1,
+      "title": "Meeting the Scent",
+      "slug": "w1-meeting-the-scent",
+      "videos": {
+        "intro": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W1.intro.mp4",
+          "filename": "W1.intro.mp4",
+          "status": "pending"
+        },
+        "demo": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W1.demo.mp4",
+          "filename": "W1.demo.mp4",
+          "status": "pending"
+        },
+        "recap": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W1.recap.mp4",
+          "filename": "W1.recap.mp4",
+          "status": "pending"
+        }
+      },
+      "worksheet_url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/docs/W1.worksheet.pdf",
+      "supplies": [
+        "Truffle Bear Oil",
+        "Cotton ball / tin / foil scent holder",
+        "High-value treats or favorite toy",
+        "Quiet indoor training space",
+        "Forceps for clean handling"
+      ],
+      "how_to_steps": [
+        "Place 2 drops of Truffle Bear Oil on a cotton swab using forceps; tuck into the tin",
+        "Present the tin at nose height and remain a 'statue' so the dog leads",
+        "Mark with crisp 'Yes!' at the exact moment of nose contact",
+        "Deliver treat within 2 seconds",
+        "Run 3-5 short reps and end while dog still wants more"
+      ],
+      "trainer_notes": [
+        "Reward enthusiasm not perfection",
+        "Keep sessions short so the dog stays eager",
+        "Use real truffles when available",
+        "Let the trainer choose the marker that feels natural and consistent"
+      ],
+      "success_metric": "Dog performs an immediate focused head-turn toward the odor source in 3 of 4 reps without handler prompting",
+      "what_comes_next": "Building independent hunt drive and learning the art of source commitment",
+      "placeholder": false
+    },
+    {
+      "id": "W2",
+      "phase_id": "P1",
+      "phase_title": "Foundation",
+      "week": 2,
+      "title": "Source Commitment",
+      "slug": "w2-source-commitment",
+      "videos": {
+        "intro": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W2.intro.mp4",
+          "filename": "W2.intro.mp4",
+          "status": "pending"
+        },
+        "demo": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W2.demo.mp4",
+          "filename": "W2.demo.mp4",
+          "status": "pending"
+        },
+        "recap": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W2.recap.mp4",
+          "filename": "W2.recap.mp4",
+          "status": "pending"
+        }
+      },
+      "worksheet_url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/docs/W2.worksheet.pdf",
+      "supplies": [
+        "Scented tin with high-value treat hidden inside",
+        "Floor space to set up the find"
+      ],
+      "how_to_steps": [
+        "Tuck the dog's favorite high-value treat directly inside the scented tin",
+        "Place tin on the floor and step back without giving a 'find it' command",
+        "Let the odor be the cue to work",
+        "Remain a 'statue' to prevent the dog from looking to you for help",
+        "Keep sessions under 5 minutes"
+      ],
+      "trainer_notes": [
+        "By letting the dog self-reward you start becoming 'invisible' which is the hallmark of a great handler",
+        "The dog must lead the search"
+      ],
+      "success_metric": "Dog self-rewards directly at source consistently and shows independent confidence in approaching the tin",
+      "what_comes_next": "Teaching the dog that not every smell in the forest is the one we want",
+      "placeholder": false
+    },
+    {
+      "id": "W3",
+      "phase_id": "P1",
+      "phase_title": "Foundation",
+      "week": 3,
+      "title": "Scent Discrimination",
+      "slug": "w3-scent-discrimination",
+      "videos": {
+        "intro": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W3.intro.mp4",
+          "filename": "W3.intro.mp4",
+          "status": "pending"
+        },
+        "demo": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W3.demo.mp4",
+          "filename": "W3.demo.mp4",
+          "status": "pending"
+        },
+        "recap": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W3.recap.mp4",
+          "filename": "W3.recap.mp4",
+          "status": "pending"
+        }
+      },
+      "worksheet_url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/docs/W3.worksheet.pdf",
+      "supplies": [
+        "3 tins (one scented"
+      ],
+      "how_to_steps": [
+        "one with soil"
+      ],
+      "trainer_notes": [
+        "one with kibble)",
+        "High-value jackpot reward",
+        "Forceps"
+      ],
+      "success_metric": "Set up a line of three tins: scented + soil distractor + food distractor|Allow the dog to sample distractors and make a conscious choice|Jackpot reward only on correct truffle choice|On wrong choice remain neutral and simply reset the rep",
+      "what_comes_next": "Never punish a wrong choice \u2014 let the lack of reward do the teaching|Keep arrays clean using forceps|Make the truffle the dog's best idea every single time",
+      "placeholder": false
+    },
+    {
+      "id": "W4",
+      "phase_id": "P2",
+      "phase_title": "Communication",
+      "week": 4,
+      "title": "The Alert Foundation",
+      "slug": "w4-the-alert-foundation",
+      "videos": {
+        "intro": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W4.intro.mp4",
+          "filename": "W4.intro.mp4",
+          "status": "pending"
+        },
+        "demo": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W4.demo.mp4",
+          "filename": "W4.demo.mp4",
+          "status": "pending"
+        },
+        "recap": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W4.recap.mp4",
+          "filename": "W4.recap.mp4",
+          "status": "pending"
+        }
+      },
+      "worksheet_url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/docs/W4.worksheet.pdf",
+      "supplies": [
+        "Visible scented tin",
+        "Jackpot rewards delivered at source"
+      ],
+      "how_to_steps": [
+        "Choose an alert behavior (nose-touch or sit) that fits your dog",
+        "Present a visible tin and mark + jackpot the split second the alert is offered",
+        "Deliver treats directly at the tin not from your pocket",
+        "Repeat until the behavior is offered unprompted",
+        "Gradually tuck the tin slightly out of sight"
+      ],
+      "trainer_notes": [
+        "The alert must be the dog's idea not a commanded trick",
+        "If the dog is struggling go back to the visible tin to keep confidence high"
+      ],
+      "success_metric": "Dog offers chosen alert behavior unprompted on a visible tin in 4 of 5 reps",
+      "what_comes_next": "Adding fluency \u2014 teaching your dog to hold the signal even when you move around",
+      "placeholder": false
+    },
+    {
+      "id": "W5",
+      "phase_id": "P2",
+      "phase_title": "Communication",
+      "week": 5,
+      "title": "The Alert Fluency & The All-Clear",
+      "slug": "w5-alert-fluency-all-clear",
+      "videos": {
+        "intro": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W5.intro.mp4",
+          "filename": "W5.intro.mp4",
+          "status": "pending"
+        },
+        "demo": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W5.demo.mp4",
+          "filename": "W5.demo.mp4",
+          "status": "pending"
+        },
+        "recap": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W5.recap.mp4",
+          "filename": "W5.recap.mp4",
+          "status": "pending"
+        }
+      },
+      "worksheet_url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/docs/W5.worksheet.pdf",
+      "supplies": [
+        "Scented tin (for fluency reps)",
+        "Empty search area (for blank/all-clear reps)",
+        "Tiered rewards (high-value at source"
+      ],
+      "how_to_steps": [
+        "lower-tier for All-Clear)"
+      ],
+      "trainer_notes": [
+        "Have the dog offer the alert and silently count to 3 while taking a slow step back",
+        "Reward only after the count holds \u2014 building duration",
+        "Run a 'blank' search with no truffle oil present",
+        "When the dog realizes there is no scent and returns to you mark and give a lower-tier reward"
+      ],
+      "success_metric": "By rewarding the All-Clear you remove the stress of 'having to find something' from the dog's shoulders|The dog now has a partner who can tell you when to keep looking and when to move on",
+      "what_comes_next": "Dog offers sustained indication (3+ seconds) at hidden source AND successfully clears empty area in 3 of 4 trials",
+      "placeholder": false
+    },
+    {
+      "id": "W6",
+      "phase_id": "P2",
+      "phase_title": "Communication",
+      "week": 6,
+      "title": "Raising the Criteria",
+      "slug": "w6-raising-the-criteria",
+      "videos": {
+        "intro": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W6.intro.mp4",
+          "filename": "W6.intro.mp4",
+          "status": "pending"
+        },
+        "demo": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W6.demo.mp4",
+          "filename": "W6.demo.mp4",
+          "status": "pending"
+        },
+        "recap": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W6.recap.mp4",
+          "filename": "W6.recap.mp4",
+          "status": "pending"
+        }
+      },
+      "worksheet_url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/docs/W6.worksheet.pdf",
+      "supplies": [
+        "Container of loose soil (for buried hides)",
+        "Scented tin",
+        "Open room for full-room searches"
+      ],
+      "how_to_steps": [
+        "Bury the tin 2 inches deep in loose soil",
+        "Observe the dog's scratch-to-source behavior before the final alert",
+        "Stand at the threshold while the dog clears the entire room",
+        "Watch how the dog 'slams' into the scent cone from several feet away"
+      ],
+      "trainer_notes": [
+        "Raise only ONE variable at a time (Duration OR Distance OR Distraction)",
+        "Note the scratching and deep sniffing \u2014 these are exactly what we want in the wild Oregon forests"
+      ],
+      "success_metric": "Dog locates buried hides 4 of 5 times AND clears full room independently while handler stays at threshold",
+      "what_comes_next": "Phase 3 begins \u2014 partnership and blind searches with you trusting the dog's nose",
+      "placeholder": false
+    },
+    {
+      "id": "W7",
+      "phase_id": "P3",
+      "phase_title": "Partnership",
+      "week": 7,
+      "title": "Handler Reads & Blind Searches",
+      "slug": "w7-handler-reads-blind-searches",
+      "videos": {
+        "intro": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W7.intro.mp4",
+          "filename": "W7.intro.mp4",
+          "status": "pending"
+        },
+        "demo": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W7.demo.mp4",
+          "filename": "W7.demo.mp4",
+          "status": "pending"
+        },
+        "recap": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W7.recap.mp4",
+          "filename": "W7.recap.mp4",
+          "status": "pending"
+        }
+      },
+      "worksheet_url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/docs/W7.worksheet.pdf",
+      "supplies": [
+        "Multiple hides set up by a partner OR pre-set hides you don't see being placed"
+      ],
+      "how_to_steps": [
+        "First run a search where you know the location \u2014 feel how your body naturally leans",
+        "Then run a truly blind search where you don't know the hide",
+        "Stay back and let the dog tell the story",
+        "Watch for subtle body cues: head snaps"
+      ],
+      "trainer_notes": [
+        "tail flags"
+      ],
+      "success_metric": " breathing changes",
+      "what_comes_next": "Trusting the nose only develops through blind sessions|Avoid the Clever Hans Effect \u2014 your unconscious cues can corrupt the search|Document new behaviors you spot in the dog",
+      "placeholder": false
+    },
+    {
+      "id": "W8",
+      "phase_id": "P3",
+      "phase_title": "Partnership",
+      "week": 8,
+      "title": "Moving Outdoors & Wind Reading",
+      "slug": "w8-moving-outdoors-wind-reading",
+      "videos": {
+        "intro": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W8.intro.mp4",
+          "filename": "W8.intro.mp4",
+          "status": "pending"
+        },
+        "demo": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W8.demo.mp4",
+          "filename": "W8.demo.mp4",
+          "status": "pending"
+        },
+        "recap": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W8.recap.mp4",
+          "filename": "W8.recap.mp4",
+          "status": "pending"
+        }
+      },
+      "worksheet_url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/docs/W8.worksheet.pdf",
+      "supplies": [
+        "Outdoor space (grass area or open lot)",
+        "Handful of dry grass (for wind check)",
+        "Scented tin",
+        "Crosswind grid pattern in mind"
+      ],
+      "how_to_steps": [
+        "Check wind direction by tossing dry grass into the air",
+        "Start the dog DOWNWIND so scent blows into the nose",
+        "Use a crosswind grid pattern to cover the search area",
+        "Follow the dog's pull into the wind until pinpointed"
+      ],
+      "trainer_notes": [
+        "Always start the dog working INTO the wind for best advantage",
+        "Outdoor work is a major step up \u2014 wind acts as a 'scent mixer'"
+      ],
+      "success_metric": "Dog adapts to outdoor scent dynamics; handler reads change of behavior in open air",
+      "what_comes_next": "Working in real truffle substrates \u2014 bark",
+      "placeholder": false
+    },
+    {
+      "id": "W9",
+      "phase_id": "P3",
+      "phase_title": "Partnership",
+      "week": 9,
+      "title": "Natural Environments & Vapor Pressure",
+      "slug": "w9-natural-environments",
+      "videos": {
+        "intro": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W9.intro.mp4",
+          "filename": "W9.intro.mp4",
+          "status": "pending"
+        },
+        "demo": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W9.demo.mp4",
+          "filename": "W9.demo.mp4",
+          "status": "pending"
+        },
+        "recap": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W9.recap.mp4",
+          "filename": "W9.recap.mp4",
+          "status": "pending"
+        }
+      },
+      "worksheet_url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/docs/W9.worksheet.pdf",
+      "supplies": [
+        "Wet bark mulch / leaf litter / grass substrate",
+        "Scented tin buried 3 inches deep"
+      ],
+      "how_to_steps": [
+        "Bury the tin 3 inches deep under wet bark mulch",
+        "Let the dog work through surface scent pooling",
+        "Wait for the dog to 'dig the odor down' until the physical source is reached",
+        "Mark only when the dog reaches the actual tin not the pooled surface scent"
+      ],
+      "trainer_notes": [
+        "Truffle oil is an unstable volatile organic compound \u2014 it pools in substrate air pockets",
+        "Each substrate (wet bark vs dry leaves) has its own scent signature",
+        "This is the 'Marmite effect' of truffle scent"
+      ],
+      "success_metric": "Dog works through surface pooling and pinpoints the buried source within the substrate",
+      "what_comes_next": "Heading into Truffle Country \u2014 Oregon forest work and site stewardship",
+      "placeholder": false
+    },
+    {
+      "id": "W10",
+      "phase_id": "P4",
+      "phase_title": "The Hunt",
+      "week": 10,
+      "title": "Forest Work & Site Stewardship",
+      "slug": "w10-forest-work-stewardship",
+      "videos": {
+        "intro": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W10.intro.mp4",
+          "filename": "W10.intro.mp4",
+          "status": "pending"
+        },
+        "demo": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W10.demo.mp4",
+          "filename": "W10.demo.mp4",
+          "status": "pending"
+        },
+        "recap": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W10.recap.mp4",
+          "filename": "W10.recap.mp4",
+          "status": "pending"
+        }
+      },
+      "worksheet_url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/docs/W10.worksheet.pdf",
+      "supplies": [
+        "Oregon forest site (Douglas fir grove ideal)",
+        "Systematic grid pattern in mind",
+        "Leave-no-trace mindset"
+      ],
+      "how_to_steps": [
+        "Work under a Douglas fir using a systematic grid from trunk outward along root lines",
+        "Move slowly to avoid soil compaction",
+        "Observe the dog's exact nose placement when indicating",
+        "Minimize your own footprint on the search ground"
+      ],
+      "trainer_notes": [
+        "Respect the mycorrhizal networks \u2014 they enable future harvests",
+        "Soil compaction is the biggest threat to future truffle growth",
+        "Run a systematic grid not random following"
+      ],
+      "success_metric": "Dog runs a systematic grid pattern around the tree; handler practices leave-no-trace movement",
+      "what_comes_next": "Tackling the hardest hides of the course \u2014 aged and degraded scent",
+      "placeholder": false
+    },
+    {
+      "id": "W11",
+      "phase_id": "P4",
+      "phase_title": "The Hunt",
+      "week": 11,
+      "title": "Advanced Hides & Recovery",
+      "slug": "w11-advanced-hides-recovery",
+      "videos": {
+        "intro": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W11.intro.mp4",
+          "filename": "W11.intro.mp4",
+          "status": "pending"
+        },
+        "demo": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W11.demo.mp4",
+          "filename": "W11.demo.mp4",
+          "status": "pending"
+        },
+        "recap": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W11.recap.mp4",
+          "filename": "W11.recap.mp4",
+          "status": "pending"
+        }
+      },
+      "worksheet_url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/docs/W11.worksheet.pdf",
+      "supplies": [
+        "Aged hides (placed 24 hours in advance)",
+        "Variable wind conditions"
+      ],
+      "how_to_steps": [
+        "Place hides 24 hours in advance so scent is partially dissipated",
+        "When the wind shifts and the dog loses the scent watch for self-recovery",
+        "Reward the recovery behavior (re-casting circling back) just as much as the find"
+      ],
+      "trainer_notes": [
+        "Persistence is the hallmark of a professional truffle dog",
+        "Working through aged and degraded hides builds 'nose stamina'"
+      ],
+      "success_metric": "Dog self-recovers after losing scent in shifting wind without looking to handler for help",
+      "what_comes_next": "Graduation \u2014 full hunt simulation and TBCH certification submission",
+      "placeholder": false
+    },
+    {
+      "id": "W12",
+      "phase_id": "P4",
+      "phase_title": "The Hunt",
+      "week": 12,
+      "title": "Real Truffle Scenarios (Graduation)",
+      "slug": "w12-real-truffle-scenarios",
+      "videos": {
+        "intro": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W12.intro.mp4",
+          "filename": "W12.intro.mp4",
+          "status": "pending"
+        },
+        "demo": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W12.demo.mp4",
+          "filename": "W12.demo.mp4",
+          "status": "pending"
+        },
+        "recap": {
+          "url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/video/W12.recap.mp4",
+          "filename": "W12.recap.mp4",
+          "status": "pending"
+        }
+      },
+      "worksheet_url": "https://raw.githubusercontent.com/joshwark/tba-cdn/main/docs/W12.worksheet.pdf",
+      "supplies": [
+        "Full forest site",
+        "Probe tool (NOT a shovel \u2014 small probe only)",
+        "Camera for TBCH certification video"
+      ],
+      "how_to_steps": [
+        "Enter the site and let the dog search"
+      ],
+      "trainer_notes": [
+        "On firm alert approach slowly and crouch to observe exact nose location"
+      ],
+      "success_metric": "Use a probe gently \u2014 never guess at the location",
+      "what_comes_next": "Retrieve the find then immediately close the hole to protect the roots",
+      "placeholder": false
+    }
+  ]
+}
