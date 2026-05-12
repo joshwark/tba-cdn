@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Truffle Bear Academy — 12-Week Preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --oregon-cream:#F6F1E8;
+  --truffle-black:#1F1A17;
+  --dark-golden-oak:#8A6A3D;
+  --rich-earth:#5E4632;
+  --sage-mist:#A7B29D;
+  --warm-white:#FCFAF7;
+  --line:#D9D0C3;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0;background:var(--oregon-cream);color:var(--truffle-black);
+  font-family:'Work Sans',-apple-system,sans-serif;line-height:1.65;
+}
+h1,h2,h3,h4{font-family:'Cormorant Garamond',serif;line-height:1.05;margin:0;color:var(--truffle-black);}
+.eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--dark-golden-oak);font-weight:700;}
+.app{max-width:1120px;margin:0 auto;padding:48px 28px 80px;}
+
+/* Top brand bar */
+.bar{display:flex;align-items:center;justify-content:space-between;padding:0 0 26px;border-bottom:1px solid var(--line);margin-bottom:36px;}
+.bar h1{font-size:24px;font-weight:600;letter-spacing:-0.01em;}
+.bar .tag{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--dark-golden-oak);font-weight:600;margin-top:4px;}
+.bar nav button{background:transparent;border:1px solid var(--line);padding:9px 18px;border-radius:30px;font-family:'Work Sans',sans-serif;font-size:12px;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;color:var(--truffle-black);font-weight:600;}
+.bar nav button:hover{background:var(--truffle-black);color:#fff;}
+
+/* Hero */
+.hero{
+  background:linear-gradient(135deg,rgba(138,106,61,.12),rgba(167,178,157,.18));
+  border:1px solid var(--line);border-radius:28px;padding:48px 42px;margin-bottom:32px;
+}
+.hero h1{font-size:54px;font-weight:600;letter-spacing:-0.015em;margin:14px 0;}
+.hero .subtitle{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:22px;color:var(--rich-earth);max-width:760px;margin:0 0 28px;line-height:1.45;}
+.meta{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;}
+.meta .card{background:var(--warm-white);border:1px solid var(--line);border-radius:20px;padding:20px;}
+.meta .label{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--dark-golden-oak);font-weight:700;margin-bottom:6px;}
+.meta .value{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:var(--truffle-black);}
+
+/* Phase chips */
+.phases{display:flex;gap:10px;margin:24px 0 6px;flex-wrap:wrap;}
+.phase-chip{background:var(--warm-white);border:1px solid var(--line);border-radius:60px;padding:8px 16px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--rich-earth);font-weight:600;cursor:pointer;}
+.phase-chip.active{background:var(--truffle-black);color:#fff;border-color:var(--truffle-black);}
+
+/* Body grid */
+.grid{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;margin-top:24px;}
+.stack{display:grid;gap:24px;}
+.card{background:var(--warm-white);border:1px solid var(--line);border-radius:20px;padding:28px 30px;}
+.card h2{font-size:32px;font-weight:600;margin-bottom:14px;letter-spacing:-0.01em;}
+.card h3{font-size:22px;font-weight:600;margin-bottom:10px;}
+
+/* Videos */
+.videos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:14px;}
+.video{background:rgba(138,106,61,.08);border:1px solid var(--line);border-radius:18px;padding:18px;}
+.video .pill{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--dark-golden-oak);font-weight:700;margin-bottom:8px;}
+.video .placeholder{aspect-ratio:16/9;background:var(--truffle-black);color:#fff;border-radius:10px;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:14px;font-style:italic;opacity:.8;margin-bottom:8px;}
+.video p{margin:0;font-size:13.5px;color:var(--rich-earth);line-height:1.5;}
+
+/* Highlight callout */
+.highlight{background:rgba(167,178,157,.18);border-left:4px solid var(--sage-mist);padding:18px 20px;border-radius:14px;margin-top:14px;font-family:'Cormorant Garamond',serif;font-size:16px;font-style:italic;color:var(--rich-earth);line-height:1.5;}
+
+/* Lists */
+ul,ol{margin:0;padding-left:22px;}
+li{margin:0 0 10px;font-size:15.5px;line-height:1.55;}
+
+/* Step numerals — match MBA Rock's editorial style but in Oak instead of orange */
+.steps{counter-reset:s;padding:0;list-style:none;margin:0;}
+.steps li{counter-increment:s;display:grid;grid-template-columns:42px 1fr;gap:14px;padding:14px 0;border-bottom:1px solid var(--line);font-size:15.5px;line-height:1.6;}
+.steps li:last-child{border-bottom:0;}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:'Cormorant Garamond',serif;font-size:24px;color:var(--dark-golden-oak);font-weight:600;line-height:1.15;}
+
+/* Success metric strip */
+.success{background:var(--truffle-black);color:#fff;border-radius:18px;padding:24px 28px;margin-top:24px;}
+.success .l{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--sage-mist);font-weight:700;margin-bottom:8px;}
+.success p{margin:0;font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.4;font-weight:500;}
+
+/* Footer / cert */
+.cert{margin-top:64px;padding:56px 40px;background:var(--truffle-black);color:#fff;border-radius:24px;text-align:center;position:relative;overflow:hidden;}
+.cert::before,.cert::after{content:"";position:absolute;left:0;right:0;height:5px;background:var(--dark-golden-oak);}
+.cert::before{top:0;}.cert::after{bottom:0;}
+.cert .kicker{font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--dark-golden-oak);font-weight:600;margin-bottom:14px;}
+.cert h3{color:#fff;font-size:32px;margin:0 0 12px;font-weight:600;letter-spacing:-0.01em;}
+.cert p{font-size:14.5px;color:rgba(255,255,255,.7);margin:0 auto;max-width:540px;line-height:1.6;}
+
+/* Lesson selector */
+.selector{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px;}
+.selector button{background:var(--warm-white);border:1px solid var(--line);padding:8px 12px;border-radius:10px;cursor:pointer;font-family:'Work Sans',sans-serif;font-size:12.5px;font-weight:600;letter-spacing:.04em;color:var(--truffle-black);}
+.selector button:hover{border-color:var(--dark-golden-oak);}
+.selector button.active{background:var(--truffle-black);color:#fff;border-color:var(--truffle-black);}
+
+/* Preview banner */
+.preview-banner{background:var(--dark-golden-oak);color:#fff;padding:14px 20px;border-radius:14px;margin-bottom:32px;display:flex;align-items:center;gap:14px;font-size:13.5px;}
+.preview-banner b{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;}
+
+@media(max-width:900px){
+  .app{padding:24px 16px 80px;}
+  .hero h1{font-size:38px;}
+  .grid{grid-template-columns:1fr;}
+  .videos{grid-template-columns:1fr;}
+  .meta{grid-template-columns:1fr 1fr;}
+}
+</style>
+</head>
+<body>
+<main class="app">
+  <div class="preview-banner">
+    <b>Preview build</b>
+    <span>Standalone render — no Squarespace yet. Lesson media URLs show as <em>pending</em>. Pulls live data from <code style="font-family:monospace;font-size:11px;">tba-cdn/lessons.v2.json</code>.</span>
+  </div>
+
+  <div class="bar">
+    <div>
+      <h1>Truffle Bear Academy</h1>
+      <div class="tag">Listen for Lizzy Bear · Track the truffle · Hunt the Oregon forest</div>
+    </div>
+    <nav><button id="reloadBtn">Reload from CDN</button></nav>
+  </div>
+
+  <div id="hero"></div>
+  <div class="selector" id="lessonSelector"></div>
+  <div class="grid">
+    <div class="stack" id="leftStack"></div>
+    <div class="stack" id="rightStack"></div>
+  </div>
+  <div class="cert">
+    <div class="kicker">Truffle Bear Certified Handler · TBCH</div>
+    <h3>Twelve weeks. One craft. One forest at a time.</h3>
+    <p>At the end of Week 12, submit a 1–2 minute final exam video — the search, the change of behavior, the indication, and the 4-step extraction. That earns the TBCH designation.</p>
+  </div>
+</main>
+
+<script>
+const V2_URL = "https://raw.githubusercontent.com/joshwark/tba-cdn/main/lessons.v2.json";
+let DATA = null, CURRENT = "W1";
+
+function el(html){const d=document.createElement("div");d.innerHTML=html.trim();return d.firstElementChild;}
+function esc(s){const d=document.createElement("div");d.textContent=s==null?"":String(s);return d.innerHTML;}
+
+function renderHero(lesson){
+  const phase = DATA.phases.find(p=>p.id===lesson.phase_id);
+  document.getElementById("hero").innerHTML = `
+    <section class="hero">
+      <div class="eyebrow">Phase ${esc(lesson.phase_id.slice(1))} · ${esc(lesson.phase_title)} · Week ${esc(lesson.week)} of 12</div>
+      <h1>${esc(lesson.title)}</h1>
+      <p class="subtitle">${esc(lesson.what_comes_next ? "Next: " + lesson.what_comes_next : "")}</p>
+      <div class="meta">
+        <div class="card"><div class="label">Phase</div><div class="value">${esc(lesson.phase_title)}</div></div>
+        <div class="card"><div class="label">Week</div><div class="value">${esc(lesson.week)} of 12</div></div>
+        <div class="card"><div class="label">Format</div><div class="value">Intro · Demo · Recap</div></div>
+        <div class="card"><div class="label">Dog star</div><div class="value">${esc(DATA.brand.mascots.primary)}</div></div>
+      </div>
+    </section>`;
+}
+
+function renderLesson(lesson){
+  renderHero(lesson);
+
+  // Left stack
+  const left = document.getElementById("leftStack");
+  left.innerHTML = "";
+
+  // Videos card
+  left.appendChild(el(`
+    <article class="card">
+      <h2>Lesson videos</h2>
+      <p>Three short videos guide each week. Watch in order — they pair with your training reps.</p>
+      <div class="videos">
+        ${["intro","demo","recap"].map(k=>`
+          <div class="video">
+            <div class="pill">${k}</div>
+            <div class="placeholder">${esc(lesson.videos[k].filename || "pending")}</div>
+            <p>${k==="intro"?"Watch before training so you know the goal.":k==="demo"?"Follow along with Lizzy Bear's training steps.":"Review after your session — what to practice next."}</p>
+          </div>`).join("")}
+      </div>
+    </article>`));
+
+  // How to teach
+  left.appendChild(el(`
+    <article class="card">
+      <h2>How to teach it</h2>
+      <ol class="steps">${lesson.how_to_steps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol>
+    </article>`));
+
+  // Trainer notes (callout)
+  if (lesson.trainer_notes && lesson.trainer_notes.length) {
+    left.appendChild(el(`
+      <article class="card">
+        <h2>Trainer notes</h2>
+        <ul>${lesson.trainer_notes.map(s=>`<li>${esc(s)}</li>`).join("")}</ul>
+      </article>`));
+  }
+
+  // Success metric (success card)
+  if (lesson.success_metric) {
+    left.appendChild(el(`
+      <div class="success">
+        <div class="l">Week ${esc(lesson.week)} success metric</div>
+        <p>${esc(lesson.success_metric)}</p>
+      </div>`));
+  }
+
+  // Right stack — supplies, what next, worksheet, voice anchor
+  const right = document.getElementById("rightStack");
+  right.innerHTML = "";
+
+  right.appendChild(el(`
+    <article class="card">
+      <h3>Supplies</h3>
+      <ul>${lesson.supplies.map(s=>`<li>${esc(s)}</li>`).join("")}</ul>
+    </article>`));
+
+  right.appendChild(el(`
+    <article class="card">
+      <h3>Worksheet</h3>
+      <p>Download: <code style="font-family:monospace;font-size:12.5px;background:rgba(138,106,61,.08);padding:2px 8px;border-radius:6px;">${esc(lesson.worksheet_url ? lesson.worksheet_url.split("/").pop() : "pending")}</code></p>
+      <div class="highlight">PDF worksheet drops here once produced. Manifest is wired.</div>
+    </article>`));
+
+  right.appendChild(el(`
+    <article class="card">
+      <h3>What comes next</h3>
+      <p>${esc(lesson.what_comes_next)}</p>
+    </article>`));
+}
+
+function renderSelector(){
+  const sel = document.getElementById("lessonSelector");
+  sel.innerHTML = "";
+  DATA.lessons.forEach(l=>{
+    const b = el(`<button data-id="${esc(l.id)}" class="${l.id===CURRENT?'active':''}">${esc(l.id)} — ${esc(l.title)}</button>`);
+    b.addEventListener("click", ()=>{
+      CURRENT = l.id;
+      renderSelector();
+      const lesson = DATA.lessons.find(x=>x.id===CURRENT);
+      renderLesson(lesson);
+      window.scrollTo({top:0,behavior:'smooth'});
+    });
+    sel.appendChild(b);
+  });
+}
+
+async function load(){
+  const r = await fetch(V2_URL + "?cb=" + Date.now());
+  DATA = await r.json();
+  renderSelector();
+  renderLesson(DATA.lessons.find(l=>l.id===CURRENT));
+  document.title = DATA.brand.name + " — " + DATA.lessons.find(l=>l.id===CURRENT).title;
+}
+
+document.getElementById("reloadBtn").addEventListener("click", load);
+load();
+</script>
+</body>
+</html>
